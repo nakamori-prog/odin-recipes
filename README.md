@@ -7,7 +7,7 @@ Upon completion, I hope to have demonstrated my understanding of basic HTML elem
 These basic concepts/skills include:
 
 - ability to write HTML boilerplate from memory
-- ability to use basic HTML elements (i.e. <p>, <strong>/<em>, <a>, etc.)
+- ability to use basic HTML elements (i.e. paragraph, strong/emphasis, anchor, etc.)
 - ability to use both absolute and relative links successfully
 
 To my future self: I hope you're doing okay!
