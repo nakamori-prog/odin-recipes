@@ -13,10 +13,11 @@
 
 .recipe-list {
     color: black;
-    text-align: center;
     font-size: 20px;
-    display: inline-block;
     margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
 }
 
 .button1,.button2,.button3 {
@@ -24,6 +25,10 @@
     padding: 20px;
     font-weight: bold;
     font-size: x-large;
+    text-align: center;
+    width: fit-content;
+    height: auto;
+    display: inline-block
 }
 
 .img1 {
