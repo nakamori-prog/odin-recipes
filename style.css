@@ -1,5 +1,6 @@
 * {
-    font-family: "Times New Roman", serif
+    font-family: "Times New Roman", serif;
+    box-sizing: border-box;
 }
 
 #title {
@@ -16,6 +17,13 @@
     font-size: 20px;
     display: flexbox;
     margin-top: 30px;
+}
+
+.button1,.button2,.button3 {
+    margin: 30px;
+    padding: 20px;
+    font-weight: bold;
+    
 }
 
 .img1 {
