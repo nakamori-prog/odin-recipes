@@ -1,40 +1,67 @@
 * {
     font-family: "Times New Roman", serif;
-    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: yellow
 }
 
 #title {
     background-color: yellow;
     color: red;
     font-weight: bold;
-    font-size: 40px;
-    text-align: center
+    font-size: 125px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
 }
 
 .recipe-list {
     color: black;
-    font-size: 20px;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100px;
+    display: inline-flexbox;
+    }
+
+.button-img {
+    border-radius: 50%;
+    display: inline-flexbox;
+    float: right;
+    height: 250px;
+    width: 250px;
+    object-fit: scale-down
 }
 
-.button1,.button2,.button3 {
-    margin: 30px;
-    padding: 20px;
+.button-ttl {
+    color: red;
+    font-size: 50px;
+    text-align: left;
+    display: inline-flexbox;
+}
+
+.button-txt {
+    color:black;
+    font-size: 30px;
+    text-align: left;
+    vertical-align: bottom;
+    display: inline-flexbox
+}
+
+button {
+    margin: 0, auto;
+    width: 100%;
+    padding: 50px;
     font-weight: bold;
-    font-size: xx-large;
-    text-align: center;
-    width: fit-content;
+    color: red;
     height: auto;
     display: inline-block;
-    border: dotted
+    border: dotted;
+    border-color: red;
 }
 
 .img1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
     width: 50%;
 }
